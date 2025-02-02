@@ -5,7 +5,7 @@ import { FaCopy } from "react-icons/fa";
 
 const Hero: React.FC = () => {
   const [copied, setCopied] = useState(false);
-  const contractAddress = "0x1234567890abcdef1234567890abcdef12345678"; // Replace with actual address
+  const contractAddress = "000000000000000000000"; // Replace with actual address
 
   const handleCopyAddress = async () => {
     try {
